@@ -1,5 +1,9 @@
 .DS_Store
 
+# Site-specific customizations (per-deployment dashboards, alerts, etc.)
+# Lives in deployment/customizations/ to survive `git pull` of upstream.
+deployment/customizations/
+
 # Build artifacts
 dist/
 build/
